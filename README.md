@@ -59,4 +59,3 @@ Examples 2 and 3:
     python regression.py "C:/Users/lli/Downloads/1Match" "C:/Users/lli/Downloads/my_results_2" --events ed
 
     python regression.py "C:/Users/lli/Downloads/1Match" "C:/Users/lli/Downloads/my_results_3" --labelthru 3 --train 1 --test 1
-"""
