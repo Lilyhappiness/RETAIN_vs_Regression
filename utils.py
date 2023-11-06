@@ -1,5 +1,6 @@
 """
 Lily Li
+Last modified: 2019 12
 
 Some helper functions for regression.py and make_data.py. Provides tests for whether a feature
 is timevarying, or chemo/radiation, or imaging.
