@@ -12,22 +12,6 @@ E.g. if labelthru=2, will label tvvs on last claims day with "1_" and tvvs in se
 with "2_" and run regression on these sequences. Then will label tvvs on last claims day with "1_" and
 run regression on these sequences. Then will label NO tvvs with day index and run regression.
 
-Assumes the following file naming format in path/[subfolder]:
-
-* claims_visits_ed_1_data.pkl     # default train data
-* claims_visits_ed_1_target.pkl   # default train labels
-claims_visits_ed_2_data.pkl     # default dev data
-claims_visits_ed_2_target.pkl   # default dev labels
-claims_visits_ed_3_data.pkl     # default test data
-claims_visits_ed_3_target.pkl   # default test labels
-claims_visits_ip_1_data.pkl     # default train data
-claims_visits_ip_1_target.pkl   # default train labels
-claims_visits_ip_2_data.pkl     # default dev data
-claims_visits_ip_2_target.pkl   # default dev labels
-claims_visits_ip_3_data.pkl     # default test data
-claims_visits_ip_3_target.pkl   # default test labels
-dictionary.pkl                  # index: feature string mapping
-
 By default, regression.py will train on datasets labeled with "1" and test on datasets labeled with "3". This may
 be overridden by the user with [train] and [test] parameters.
 
