@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """
-Lily Li
+Kathryn Egan and Li Li
 Created on 2019-12
 
 Runs logistic regression on the claims data in the folder given by [inputpath] and [subfolders] (optional) and
